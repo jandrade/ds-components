@@ -2,14 +2,14 @@
 
 ## Getting started
 
-Install dependencies (It might need to install `pnpm`):
+Install dependencies:
 
 ```
-pnpm i
+npm i
 ```
 
 Run the devServer:
 
 ```
-pnpm dev
+npm run dev
 ```
