@@ -30,7 +30,7 @@ export const colors = {
 export type Colors = Record<keyof typeof colors, string>;
 
 export const shadows = {
-    base: `0 4px 8px 0px ${colors.offBlack_8}`,
+    sm: `0 4px 8px 0px ${colors.offBlack_8}`,
 };
 
 /**
@@ -62,12 +62,12 @@ export const font = {
 const typeScale = createModularScale(1.25, 1, "rem");
 
 export const fontSize = {
-    sm: typeScale(0),
+    xs: typeScale(0),
+    sm: typeScale(0.5),
     md: typeScale(1), // base fontSize
     lg: typeScale(2),
     xl: typeScale(3),
     xxl: typeScale(4),
-    xxxl: typeScale(5),
 };
 
 export type FontSize = Record<keyof typeof fontSize, string>;
@@ -75,12 +75,12 @@ export type FontSize = Record<keyof typeof fontSize, string>;
 const lineHeightScale = createModularScale(1.25, 24);
 
 export const lineHeight = {
-    sm: lineHeightScale(0),
+    xs: lineHeightScale(0),
+    sm: lineHeightScale(0.5),
     md: lineHeightScale(1), // base line height
     lg: lineHeightScale(2),
     xl: lineHeightScale(3),
     xxl: lineHeightScale(4),
-    xxxl: lineHeightScale(5),
 };
 
 export type LineHeight = Record<keyof typeof lineHeight, string>;
