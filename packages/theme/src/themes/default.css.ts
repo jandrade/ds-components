@@ -57,11 +57,7 @@ const lightTheme: ThemeContract = {
         },
     },
 
-    shadows: {
-        sm: shadows.sm,
-        md: `0 8px 16px 0px ${colors.gray_900}`,
-        lg: `0 16px 32px 0px ${colors.gray_900}`,
-    },
+    shadows,
 };
 
 export default createTheme(vars, lightTheme);

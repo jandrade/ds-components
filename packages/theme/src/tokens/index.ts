@@ -31,6 +31,8 @@ export type Colors = Record<keyof typeof colors, string>;
 
 export const shadows = {
     sm: `0 4px 8px 0px ${colors.offBlack_8}`,
+    md: `0 8px 16px 0px ${colors.offBlack_16}`,
+    lg: `-10px -10px 30px #ffffff, 10px 10px 30px ${colors.offBlack_32}`,
 };
 
 /**
