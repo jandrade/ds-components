@@ -8,7 +8,7 @@ import { colors } from "../../tokens";
 const ColorsTable = () => (
     <div className={styles.container}>
         {Object.entries(colors).map(([size, value]) => {
-            let contrastRatio = chroma.contrast(value, "black");
+            let contrastRatio = chroma.contrast(value, colors.gray_1000);
             let passesAA = contrastRatio > 4.5;
             let passesAAA = contrastRatio > 7;
             const result = (isValid: boolean) => (isValid ? "pass" : "fail");

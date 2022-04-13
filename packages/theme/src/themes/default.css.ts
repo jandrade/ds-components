@@ -22,7 +22,7 @@ const lightTheme: ThemeContract = {
 
     color: {
         text: {
-            body: colors.gray_900,
+            body: colors.gray_1000,
             bodyInverted: colors.white,
             primary: colors.blue_400,
             primaryLight: colors.blue_100,
