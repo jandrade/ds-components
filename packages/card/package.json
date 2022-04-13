@@ -1,0 +1,17 @@
+{
+    "name": "@jandrade/ds-card",
+    "version": "0.0.0",
+    "description": "The Card component is a simple container for content.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "publishConfig": {
+        "access": "public"
+    }
+}
