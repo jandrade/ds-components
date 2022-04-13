@@ -1,0 +1,26 @@
+{
+    "name": "@jandrade/ds-theme",
+    "version": "1.0.0",
+    "main": "src/vars.css.ts",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "gentokens": "node scripts/gentokens.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "chroma-js": "^2.4.2",
+        "color2k": "^2.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jandrade/ds-components.git"
+    },
+    "homepage": "https://github.com/jandrade/ds-components/packages/theme#readme",
+    "description": "",
+    "publishConfig": {
+        "access": "public"
+    }
+}

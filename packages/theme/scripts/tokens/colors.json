@@ -1,0 +1,33 @@
+{
+    "primary": {
+        "colors": {
+            "blue": "#1864ab",
+            "green": "#1d781d",
+            "red": "#c92a2a",
+            "purple": "#5f3dc4",
+            "orange": "#d35400",
+            "yellow": "#e4b11b",
+            "gray": "#2c2c2c"
+        },
+        "steps": 9
+    },
+    "neutral": {
+        "colors": {
+            "gray": "#2c2c2c"
+        },
+        "steps": 9
+    },
+    "shadings": {
+        "colors": {
+            "offWhite": "#fff",
+            "offBlack": "#000"
+        },
+        "alphas": {
+            "8": 0.08,
+            "16": 0.16,
+            "32": 0.32,
+            "50": 0.5,
+            "64": 0.64
+        }
+    }
+}
