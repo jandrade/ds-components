@@ -1,6 +1,6 @@
 {
     "name": "@jandrade/ds-typography",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "",
     "main": "src/index.ts",
     "scripts": {
@@ -14,7 +14,7 @@
     "license": "ISC",
     "homepage": "https://github.com/jandrade/ds-components#readme",
     "dependencies": {
-        "@jandrade/ds-theme": "^0.2.0"
+        "@jandrade/ds-theme": "^0.2.1"
     },
     "publishConfig": {
         "access": "public"
