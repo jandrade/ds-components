@@ -23,7 +23,11 @@ const ColorsTable = () => (
             }
 
             return (
-                <div key={value} className={styles.colors[size]} style={style}>
+                <div
+                    key={value}
+                    className={styles.colorsList[size]}
+                    style={style}
+                >
                     <b>{size}</b>
                     <span>{value}</span>
 

@@ -2,6 +2,7 @@ import { style, styleVariants } from "@vanilla-extract/css";
 import { calc } from "@vanilla-extract/css-utils";
 
 import { vars } from "../../vars.css";
+import { colors } from "../../tokens";
 
 export const container = style({
     display: "flex",
@@ -9,9 +10,9 @@ export const container = style({
     gap: vars.spacing.md,
 });
 
-export const colors = styleVariants(vars.color, (token) => ({
+export const colorsList = styleVariants(colors, (token) => ({
     background: token,
-    color: vars.color.black,
+    color: vars.color.text.body,
     display: "flex",
     flexDirection: "column",
     fontSize: vars.typography.fontSize.md,
@@ -21,17 +22,17 @@ export const colors = styleVariants(vars.color, (token) => ({
     flexBasis: `calc(20% - ${vars.spacing.md})`,
     borderRadius: 2,
     position: "relative",
-    border: `1px solid ${vars.color.gray_200}`,
-    boxShadow: vars.shadows.base,
+    border: `1px solid ${vars.color.border.neutral}`,
+    boxShadow: vars.shadows.sm,
 }));
 
 export const caption = style({
     display: "flex",
     justifyContent: "space-between",
-    color: vars.color.gray_900,
-    background: vars.color.white,
-    borderTop: `1px solid ${vars.color.gray_200}`,
-    boxShadow: vars.shadows.base,
+    color: vars.color.text.body,
+    background: vars.color.background.body,
+    borderTop: `1px solid ${vars.color.background.body}`,
+    boxShadow: vars.shadows.sm,
     position: "absolute",
     bottom: 0,
     padding: vars.spacing.sm,
@@ -40,7 +41,7 @@ export const caption = style({
 });
 
 const baseChip = style({
-    border: `1px solid ${vars.color.gray_200}`,
+    border: `1px solid ${vars.color.border.primary}`,
     margin: vars.spacing.xxs,
     padding: vars.spacing.xxs,
     fontWeight: 700,
@@ -50,7 +51,7 @@ export const chip = styleVariants({
     pass: [
         baseChip,
         {
-            color: vars.color.green_400,
+            color: vars.color.text.positive,
             ":before": {
                 content: "'✔ '",
             },
@@ -59,7 +60,7 @@ export const chip = styleVariants({
     fail: [
         baseChip,
         {
-            color: vars.color.red_400,
+            color: vars.color.text.negative,
             ":before": {
                 content: "'X '",
             },
