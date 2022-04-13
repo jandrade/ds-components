@@ -1,5 +1,13 @@
 # @jandrade/ds-theme
 
+## 0.2.1
+
+### Patch Changes
+
+-   47256e5: - Adds the `Card` component to the ds-card package
+    -   Moves the shadow tokens from the default theme to the global tokens config
+-   84b32e9: Fix text color to have better color contrast
+
 ## 0.2.0
 
 ### Minor Changes
