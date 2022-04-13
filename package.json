@@ -6,7 +6,8 @@
         "lint": "eslint",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
-        "changeset": "changeset"
+        "changeset": "changeset",
+        "publish": "changeset publish"
     },
     "dependencies": {
         "@changesets/cli": "^2.22.0",
