@@ -22,6 +22,12 @@ Build Storybook:
 npm build-storybook
 ```
 
+To include package contributions:
+
+```
+npx changeset
+```
+
 ## Technical details
 
 This package uses `npm` workspaces.
