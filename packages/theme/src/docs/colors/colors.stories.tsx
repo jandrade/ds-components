@@ -50,6 +50,10 @@ const ColorsTable = () => (
 
 export default {
     title: "Foundation / Colors",
+    parameters: {
+        // Disable snapshots for this component
+        chromatic: { disableSnapshot: false },
+    },
 } as ComponentMeta<typeof ColorsTable>;
 
 export const Colors: ComponentStory<typeof ColorsTable> = () => <ColorsTable />;

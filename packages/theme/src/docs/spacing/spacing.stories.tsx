@@ -5,6 +5,10 @@ import { spacing } from "../../tokens";
 
 export default {
     title: "Foundation / Spacing",
+    parameters: {
+        // Disable snapshots for this component
+        chromatic: { disableSnapshot: false },
+    },
 };
 
 const SpacingTable = () => (
