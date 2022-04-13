@@ -7,6 +7,7 @@ import { vars } from "../../vars.css";
  */
 export const table = style({
     background: vars.color.background.body,
+    color: vars.color.text.body,
     fontSize: vars.typography.fontSize.md,
     margin: vars.spacing.xxs,
     textAlign: "left",
