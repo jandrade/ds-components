@@ -1,5 +1,11 @@
 # @jandrade/ds-card
 
+## 0.1.2
+
+### Patch Changes
+
+-   99985cc: Fixing color contrast
+
 ## 0.1.1
 
 ### Patch Changes
