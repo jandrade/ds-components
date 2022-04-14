@@ -10,7 +10,9 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {},
+    "dependencies": {
+        "@jandrade/ds-theme": "^0.2.1"
+    },
     "publishConfig": {
         "access": "public"
     }

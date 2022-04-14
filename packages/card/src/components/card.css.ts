@@ -4,7 +4,7 @@ import { vars } from "@jandrade/ds-theme";
 
 export const card = style({
     display: "flex",
-    background: vars.color.background.primary,
+    background: vars.color.background.body,
     borderRadius: 12,
     color: vars.color.text.body,
     padding: vars.spacing.xxl,
